@@ -1,26 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { ThemeProvider } from 'styled-components'
+import { Reset } from 'styled-reset'
+import { RouterProvider } from 'react-router-dom'
+import { router } from '@pages'
+import { useRecoilValue } from 'recoil'
+import { ThemeFlag, themeState } from '@atom'
+import { darkTheme, lightTheme } from '@styles'
 
-function App() {
+export default function App() {
+  const currentTheme = useRecoilValue<ThemeFlag>(themeState)
+  const theme = currentTheme === ThemeFlag.DARK ? darkTheme : lightTheme
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <ThemeProvider theme={theme}>
+      <Reset />
+      <RouterProvider router={router} />
+    </ThemeProvider>
+  )
 }
-
-export default App;
