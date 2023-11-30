@@ -1,6 +1,5 @@
 {
   "name": "my-app",
-  "homepage": "https://dotory0829.github.io/youtube-api-project/public/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
