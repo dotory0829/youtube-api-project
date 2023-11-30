@@ -100,8 +100,6 @@ export const Header = () => {
     }
   }, [headerRef])
 
-  console.log(searchInput)
-
   return (
     <HeaderContainer
       $isSearch={isSearchToggle}
