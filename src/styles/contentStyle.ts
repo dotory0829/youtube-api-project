@@ -104,6 +104,7 @@ export const ContentCardWrapper = styled.div`
 
 export const ThumbnailBoxImg = styled.div<ThumbnailImg>`
   height: ${props => props.$height}px;
+  aspect-ratio: 16 / 9;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
   box-sizing: border-box;
@@ -152,6 +153,8 @@ export const VideoOverlay = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 8px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
 `
 
 export const VideoIframe = styled.iframe`
