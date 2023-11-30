@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/youtube-api-project/static/css/main.cfb288d2.css",
-    "main.js": "/youtube-api-project/static/js/main.ddcc351f.js",
-    "static/js/787.d4aba7ab.chunk.js": "/youtube-api-project/static/js/787.d4aba7ab.chunk.js",
-    "static/media/slick.svg": "/youtube-api-project/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/youtube-api-project/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/youtube-api-project/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/youtube-api-project/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/youtube-api-project/index.html",
-    "main.cfb288d2.css.map": "/youtube-api-project/static/css/main.cfb288d2.css.map",
-    "main.ddcc351f.js.map": "/youtube-api-project/static/js/main.ddcc351f.js.map",
-    "787.d4aba7ab.chunk.js.map": "/youtube-api-project/static/js/787.d4aba7ab.chunk.js.map"
+    "main.css": "/youtube-api-project/public/static/css/main.0df2b6e6.css",
+    "main.js": "/youtube-api-project/public/static/js/main.5c81ddee.js",
+    "static/js/787.d4aba7ab.chunk.js": "/youtube-api-project/public/static/js/787.d4aba7ab.chunk.js",
+    "static/media/slick.svg": "/youtube-api-project/public/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/youtube-api-project/public/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/youtube-api-project/public/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/youtube-api-project/public/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/youtube-api-project/public/index.html",
+    "main.0df2b6e6.css.map": "/youtube-api-project/public/static/css/main.0df2b6e6.css.map",
+    "main.5c81ddee.js.map": "/youtube-api-project/public/static/js/main.5c81ddee.js.map",
+    "787.d4aba7ab.chunk.js.map": "/youtube-api-project/public/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfb288d2.css",
-    "static/js/main.ddcc351f.js"
+    "static/css/main.0df2b6e6.css",
+    "static/js/main.5c81ddee.js"
   ]
 }
